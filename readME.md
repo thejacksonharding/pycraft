@@ -31,3 +31,7 @@
 
 Make sure to brew install git 
 and brew install openjdk
+
+FOR WINDOWS
+Make sure to click on the start.bat file. insetad of mac start.command.
+Make
