@@ -1,36 +1,68 @@
-1. Install java 11 (< java 13) openjdk adoptium version 11
-2. Launch java 11 Copy code
-* export JAVA_HOME=$(/usr/libexec/java_home -v 11) export PATH=$JAVA_HOME/bin:$PATH
-3. Verify java -version
-3a. (Only if not java 11) Edit start.command file in text edit and change v11 to vXX. Finally in terminal run chmod +x "file" 
-4. naviagate to mcpi_server directory and execute mkdir spigot-build
-5. cd spigot-build
-6. curl -o BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
-7. java -jar BuildTools.jar --rev 1.14.4
-8. Move spigot-1.14.4.jar to server folder
-9. Run start.command in the same terminal 
-10. Agree to EUla (set false to true) and edit server.properties to the settings you want
-11. Rerun start.command (let run fully)
-12. type "stop"
-13. Wait for terminal to stop
-14. Download latest raspberryjuice file. "google raspberry juice github" -> jars -> download raspberryjuice-1.12.1.jar 
-15. Move raspberryjuice jar into plugins folder
-16. Move mcpi folder into Buildkit folder
-17. Move helloworld.py into Buildkit folder
-18. rerun start.command in the same terminal
-19. Open Minecraft java edition
-20. Open installation 1.14.4 -> Installations/new installation/ version 1.14.4/ play
-21. Multiplayer
-22. server name: Python Craft server address: localhost 
-23. Join server
-24. open helloworld.py 
-25. run module 
-26. Verify that helloworld ran in minecraft!
-27. Have fun!
+# Hackathon Setup Guide
 
+## Prerequisites
 
-Make sure to brew install git 
-and brew install openjdk
+Before you start, make sure you have the following:
 
-FOR WINDOWS
-Make sure to click on the start.bat file. insetad of mac start.command
+- **Java 11 (Adoptium OpenJDK version 11)**: This will only work if you set your default java version to java 11!
+- **Minecraft: Java Edition**
+- **Minecraft Pi (mcpi) and RaspberryJuice Plugin + Spigot Server jar file (located in github repository)**
+- **pip install mcpi**
+
+## Steps to Set Up the Server and Python Integration
+
+### 1. Install Java 11 (Adoptium OpenJDK version 11)
+- Download and install Java 11 from [Adoptium](https://adoptium.net/temurin/releases/?version=11/).
+
+### 2. Extract Minecraft Pi (mcpi)
+- Download Zip Files from GitHub Repository or Clone Repository to your Desktop
+- Extract the **mcpi** folder from the download package.
+
+### 3. Set Up the Spigot Server
+- Extract the **JAR** files from the Spigot server package.
+- Move `spigot.jar` to the **server folder**.
+
+### 4. Run the Server
+- **Windows**:
+  - Double-click `start.bat` to run the server.
+  - If prompted, click *See More* and then *Run Anyway*.
+- **Mac**:
+  - Double-click `start.command` to run the server.
+  - If prompted, go to *System Settings → Privacy → Open Anyway* at the bottom of the settings.
+
+### 5. Accept the EULA
+- Open the `Eula.txt` file in a text editor.
+- Change `eula=false` to `eula=true`, then save the file.
+
+### 6. Restart the Server
+- Rerun the `start.command` file and let it run fully.
+
+### 7. Stop the Server
+- Once the server starts, type `stop` in the terminal and wait for the server to shut down completely.
+
+### 8. Install RaspberryJuice Plugin
+- Move the `raspberryjuice.jar` file into the **server → plugins** folder.
+
+### 9. Restart the Server Again
+- Rerun the `start.command` or `start.bat` to restart the server with the RaspberryJuice plugin.
+
+### 10. Set Up Minecraft Java Edition
+- Open **Minecraft: Java Edition** and select **version 1.14.4**.
+- Go to *Installations → New Installation → Version 1.14.4 → Play*.
+
+### 11. Connect to the Server
+- In Minecraft, go to *Multiplayer → Add Server*.
+- Set the server name as **Python Craft** and the server address as `localhost`.
+- Click *Join Server*.
+
+### 12. Run a Python Script in Minecraft
+- Open the `helloworld.py` script in your code editor.
+- Run the Python module.
+- Verify that the script runs successfully in Minecraft!
+- Try out the Example python file
+- Move on to working on your escaperoom.py!
+
+---
+
+**Enjoy the hackathon, and have fun!**
+
