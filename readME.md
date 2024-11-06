@@ -59,7 +59,7 @@ Before you start, make sure you have the following:
 - Open the `helloworld.py` script in your code editor.
 - Run the Python module.
 - Verify that the script runs successfully in Minecraft!
-- Try out the Example python file
+- Try out the Example python file (give @a stone_sword in terminal) then run program
 - Move on to working on your escaperoom.py!
 
 ---
