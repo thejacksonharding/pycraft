@@ -87,3 +87,32 @@ Welcome to the Minecraft Hackathon! This guide will help you set up Python to wo
 2. Install the required Python library:
    ```bash
    pip install mcpi
+
+
+Resources for Participants:
+Github Repository: https://github.com/thejacksonharding/pycraft
+VS code liveshare: https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare
+Other Resources:
+Template: https://ohsnapcoders.wixsite.com/mysite/escaperoom 
+Building an escape room: https://www.youtube.com/watch?v=CAoEMV75H7c&ab_channel=Wato1876
+API reference: https://www.stuffaboutcode.com/p/minecraft-api-reference.html
+Ideas: https://mcpipy.wordpress.com/
+Java MC edition help: https://help.minecraft.net/hc/en-us/articles/6657208607501-I-Own-Minecraft-Java-or-Bedrock-Edition-for-PC-How-Do-I-Get-the-Other
+https://answers.microsoft.com/en-us/xbox/forum/all/how-do-i-get-minecraft-java-edition-on-pc-if-i/f77f03d8-da2d-4fb7-bffe-0f0e0bf5ca24
+https://github.com/martinohanlon/minecraft-stuff -turtle
+https://www.stuffaboutcode.com/2013/06/raspberry-pi-minecraft-sounds-effects.html - sound
+Cheatsheet: https://arghbox.wordpress.com/wp-content/uploads/2013/06/table.pdf
+https://arghbox.wordpress.com/wp-content/uploads/2013/06/teacheredition.pdf
+https://arghbox.wordpress.com/wp-content/uploads/2013/06/minecraftbook.pdf
+https://arghbox.wordpress.com/
+COOL: https://www.stuffaboutcode.com/2013/11/minecraft-coding-traffic-jam.html
+https://www.stuffaboutcode.com/2014/02/minecraft-music-visualiser.html
+https://github.com/raspberrypilearning/getting-started-with-minecraft-pi/blob/master/worksheet.md - template!!
+Other: https://nostarch.com/minecrafthelp
+https://mrcote.info/blog/2024/06/10/how-to-get-started-with-learn-to-program-with-minecraft-in-2024/
+https://github.com/martinohanlon/making-a-game-with-minecraft-pi/blob/master/worksheet.md
+https://github.com/martinohanlon/minecraft-lavatrap/blob/master/lavatrap.png
+https://github.com/martinohanlon/minecraft-demos
+https://github.com/martinohanlon/minecraft-starwars
+https://github.com/martinohanlon/minecraft-bridge
+https://www.youtube.com/watch?v=-BP7DhHTU-I&ab_channel=sammyuri
